@@ -5,15 +5,28 @@
 }
 .header{
     width: 80%;
-    height: 80px;
-    margin: 15px auto;   
-    background-color :purple;
+    /* height: 80px; */
+    margin: 25px auto; 
+    margin-top: 2px;  
+    /* background-color :purple; */
+}
+.logo > img{
+    width: 15%;
+    margin-bottom: 20px;
+}
+.nav li{
+    display: inline-block;
+    color: grey;
+    font-size: 20px;
 }
 .c-1{
     width: 80%;
     height: 300px;
     margin: 15px auto;
-    background-color: yellowgreen;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(83%);
 }
 .c-2{
     width: 80%;
